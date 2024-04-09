@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='TACOS',
     version='1.0.0',
-    packages=find_packages(),
+    packages=find_packages(where="code"),
     description='Transform source atlas t-statistics to target atlas t-statistics',
     long_description=open('README.md').read(),
     author='Qingyuan Liu',
@@ -11,13 +11,16 @@ setup(
     install_requires=[
         'numpy',
         'requests',
+        'scipy',
+        'matplotlib',
     ],
     package_data={
         'TACOS': [
-            'resources/coefficient/.gitkeep',
-            'resources/overlap/*.txt',
-            'resources/threshold/*.txt',
-            'resources/default_variance/*.npy',
+            '../resources/coefficient/*.mat',
+            '../resources/overlap/*.txt',
+            '../resources/threshold/*.txt',
+            '../resources/default_variance/*.txt',
+            '../resoucces/region_order/*.txt'
         ],
     },
     include_package_data=True,
