@@ -1,5 +1,0 @@
-include resources/coefficient/*.mat
-include resources/overlap/*.txt
-include resources/threshold/*.txt
-include resources/default_variance/*.csv
-include resources/region_order/*.txt

@@ -14,6 +14,15 @@ setup(
         'scipy',
         'matplotlib',
     ],
+    package_data={
+        'TACOS': [
+            'resources/coefficient/*.mat',
+            'resources/overlap/*.txt',
+            'resources/threshold/*.txt',
+            'resources/default_variance/*.csv',
+            'resources/region_order/*.txt',
+        ],
+    },
     include_package_data=True,
     classifiers=[
         "License :: OSI Approved :: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
