@@ -18,6 +18,20 @@ def _readTxt(path):
     dataMat[np.isnan(dataMat)] = 0
     return dataMat
 
+def _readTxtfromme(path):
+
+    dataMat = []
+    with open(path, 'r') as file:
+        for line in file.readlines():
+            curLine = line.strip().split(",")
+            floatLine = list(map(float, curLine))
+            dataMat.append(floatLine)
+
+    dataMat = np.array(dataMat)
+    dataMat[np.isnan(dataMat)] = 0
+    return dataMat
+
+
 def _load_mat_file(relative_path):
     # 使用 pkg_resources 获取资源文件的绝对路径
     absolute_path = pkg_resources.resource_filename('TACOS', relative_path)
