@@ -1,10 +1,10 @@
 import numpy as np
 import math
 from scipy import io
-from Python.code.function import _readTxt
-from Python.code.function import _packmat
-from Python.code.function import _unpackmat
-from Python.code.function import _matShow
+from .function import _readTxt
+from .function import _packmat
+from .function import _unpackmat
+from .function import _matShow
 
 
 def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, source_Atlas=None, target_Atlas=None, form=None):
