@@ -1,18 +1,32 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-
-
+import pkg_resources
+import scipy.io as io
 def _readTxt(path):
-    file = open(path)
+    # 获取资源的绝对路径
+    absolute_path = pkg_resources.resource_filename('TACOS', path)
+
     dataMat = []
-    for line in file.readlines():
-        curLine = line.strip().split(",")
-        floatLine = list(map(float, curLine))
-        dataMat.append(floatLine[:])
+    with open(absolute_path, 'r') as file:
+        for line in file.readlines():
+            curLine = line.strip().split(",")
+            floatLine = list(map(float, curLine))
+            dataMat.append(floatLine)
+
     dataMat = np.array(dataMat)
     dataMat[np.isnan(dataMat)] = 0
     return dataMat
+
+def _load_mat_file(relative_path):
+    # 使用 pkg_resources 获取资源文件的绝对路径
+    absolute_path = pkg_resources.resource_filename('TACOS', relative_path)
+
+    # 使用 scipy.io.loadmat 加载 .mat 文件
+    coefficient = io.loadmat(absolute_path)
+
+    return coefficient
+
 
 def _packmat(source_Atlas,source_T,control_S,patient_S):
     if source_Atlas == 'DK':

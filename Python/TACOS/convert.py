@@ -5,7 +5,7 @@ from .function import _readTxt
 from .function import _packmat
 from .function import _unpackmat
 from .function import _matShow
-
+from .function import _load_mat_file
 def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, source_Atlas=None, target_Atlas=None, form=None):
     """
     Transform source atlas t-statistics to target atlas t-statistics.
@@ -41,7 +41,7 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
         threshold = np.zeros((target_Len,target_Len)) + 1
         if target_Atlas == 'Schaefer200':
             threshold = np.zeros((200, 200)) + 1
-        coefficient = io.loadmat('./resources/coefficient/F_' + target_Atlas + '_from_' + source_Atlas + '.mat')['F_'+target_Atlas+'_from_'+source_Atlas][0]
+        coefficient = _load_mat_file('./resources/coefficient/F_' + target_Atlas + '_from_' + source_Atlas + '.mat')['F_'+target_Atlas+'_from_'+source_Atlas][0]
 
         # Set default values for control_S and patient_S if not provided
         if controlS_Path is None:
@@ -51,7 +51,7 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
 
     if form == 'structural':
         threshold = _readTxt(thresholdPath)
-        coefficient = io.loadmat('./resources/coefficient/S_' + target_Atlas + '_from_' + source_Atlas + '.mat')['S_'+target_Atlas+'_from_'+source_Atlas][0]
+        coefficient = _load_mat_file('./resources/coefficient/S_' + target_Atlas + '_from_' + source_Atlas + '.mat')['S_'+target_Atlas+'_from_'+source_Atlas][0]
         # Set default values for control_S and patient_S if not provided
         if controlS_Path is None:
             controlS_Path = './resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
@@ -98,9 +98,9 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
     transformed_T = _unpackmat(target_Atlas,transformed_T)
     transformed_T = transformed_T * threshold
 
-    np.savetxt('./result/transformed_'+target_Atlas+'_'+source_Atlas+'.csv', transformed_T, delimiter=',')
-    _matShow('./result/transformed_' + target_Atlas,transformed_T)
-    _matShow('./result/source_' + source_Atlas,source_T)
+    np.savetxt('transformed_{}_{}.csv'.format(target_Atlas, source_Atlas), transformed_T, delimiter=',')
+    _matShow('transformed_' + target_Atlas, transformed_T)
+    _matShow('source_' + source_Atlas, source_T)
 
     return transformed_T
 
