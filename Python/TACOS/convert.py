@@ -32,8 +32,8 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
         raise ValueError("form must be either 'functional' or 'structural'.")
 
 
-    thresholdPath = '../../resources/threshold/' + target_Atlas + '_threshold0.6.txt'
-    brainCorresponding = '../../resources/overlap/' +target_Atlas + '_to_' + source_Atlas + '.txt'
+    thresholdPath = '../../../resources/threshold/' + target_Atlas + '_threshold0.6.txt'
+    brainCorresponding = '../../../resources/overlap/' +target_Atlas + '_to_' + source_Atlas + '.txt'
     brainGraph = _readTxt(brainCorresponding)
     target_Len = brainGraph.shape[0]
     source_Len = brainGraph.shape[1]
@@ -43,22 +43,22 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
         threshold = np.zeros((target_Len,target_Len)) + 1
         if target_Atlas == 'Schaefer200':
             threshold = np.zeros((200, 200)) + 1
-        coefficient = io.loadmat('../../resources/coefficient/F_' + target_Atlas + '_from_' + source_Atlas + '.mat')['F_'+target_Atlas+'_from_'+source_Atlas][0]
+        coefficient = io.loadmat('../../../resources/coefficient/F_' + target_Atlas + '_from_' + source_Atlas + '.mat')['F_'+target_Atlas+'_from_'+source_Atlas][0]
 
         # Set default values for control_S and patient_S if not provided
         if controlS_Path is None:
-            controlS_Path = '../../resources/default_variance/S_HCP_'+source_Atlas+'_FC.csv'
+            controlS_Path = '../../../resources/default_variance/S_HCP_'+source_Atlas+'_FC.csv'
         if patientS_Path is None:
-            patientS_Path = '../../resources/default_variance/S_HCP_'+source_Atlas+'_FC.csv'
+            patientS_Path = '../../../resources/default_variance/S_HCP_'+source_Atlas+'_FC.csv'
 
     if form == 'structural':
         threshold = _readTxt(thresholdPath)
-        coefficient = io.loadmat('../../resources/coefficient/S_' + target_Atlas + '_from_' + source_Atlas + '.mat')['S_'+target_Atlas+'_from_'+source_Atlas][0]
+        coefficient = io.loadmat('../../../resources/coefficient/S_' + target_Atlas + '_from_' + source_Atlas + '.mat')['S_'+target_Atlas+'_from_'+source_Atlas][0]
         # Set default values for control_S and patient_S if not provided
         if controlS_Path is None:
-            controlS_Path = '../../resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
+            controlS_Path = '../../../resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
         if patientS_Path is None:
-            patientS_Path = '../../resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
+            patientS_Path = '../../../resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
 
     source_T = _readTxt(sourceT_Path)
 
@@ -100,9 +100,9 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
     transformed_T = _unpackmat(target_Atlas,transformed_T)
     transformed_T = transformed_T * threshold
 
-    np.savetxt('../result/transformed_'+target_Atlas+'_'+source_Atlas+'.csv', transformed_T, delimiter=',')
-    _matShow('../result/transformed_' + target_Atlas,transformed_T)
-    _matShow('../result/source_' + source_Atlas,source_T)
+    np.savetxt('./result/transformed_'+target_Atlas+'_'+source_Atlas+'.csv', transformed_T, delimiter=',')
+    _matShow('./result/transformed_' + target_Atlas,transformed_T)
+    _matShow('./result/source_' + source_Atlas,source_T)
 
     return transformed_T
 
