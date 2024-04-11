@@ -31,7 +31,7 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
     if form not in ['functional', 'structural']:
         raise ValueError("form must be either 'functional' or 'structural'.")
 
-    thresholdPath = os.path.join('resources', 'threshold', target_Atlas + '_threshold0.6.txt')
+    thresholdPath = os.path.join('resources', 'threshold', f'{target_Atlas}' + '_threshold0.6.txt')
     brainCorresponding = os.path.join('resources', 'overlap', f'{target_Atlas}_to_{source_Atlas}.txt')
     brainGraph = _readTxt(brainCorresponding)
     target_Len = brainGraph.shape[0]

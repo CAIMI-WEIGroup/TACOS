@@ -12,6 +12,7 @@ setup(
     install_requires=[
         'numpy',
         'matplotlib',
+        'scipy',
     ],
     package_data={
         'TACOS': [
