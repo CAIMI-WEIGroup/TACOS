@@ -53,7 +53,7 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
         else:
             control_S = _readTxtfromme(controlS_Path)
         if patientS_Path is None:
-            controlS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_FC.csv')
+            patientS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_FC.csv')
             patient_S = _readTxt(patientS_Path)
         else:
             patient_S = _readTxtfromme(patientS_Path)
@@ -67,7 +67,7 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
         else:
             control_S = _readTxtfromme(controlS_Path)
         if patientS_Path is None:
-            controlS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_SC.csv')
+            patientS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_SC.csv')
             patient_S = _readTxt(patientS_Path)
         else:
             patient_S = _readTxtfromme(patientS_Path)
