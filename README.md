@@ -8,67 +8,75 @@ TACOS has the following dependencies:
 - **python >= 3.9**
 - **numpy>=1.21.5**
 - **scipy>=1.9.1**
-- **requests>=2.28.1**
+- **matplotlib>=3.5.2**
 
 TACOS can be directly downloaded from Github as follows:
 ```
-git clone https://github.com/CAIMI/TACOS.git
+https://github.com/CAIMI-WEIGroup/TACOS.git
 cd TACOS
 python setup.py install
 ```
-TACOS allows you to download specified mapping files of source and target atlases as needed. Using the download_resource script, you can easily download these resources.
-1. Make sure you have the 'requests' installed:
-```
-pip install requests
-```
-2. Run the download_resource script to download the resources. This command will download the specified resource to the 'TACOS/resources/coefficient/' directory. You need to provide source and target as source and target atlases:
-```
-python download_resource.py 'source' 'target'
-```
-Replace 'source' and 'target' with the specific identifiers of the resources you wish to download. For example:
-```
-python download_resource.py DK219 HCP_MMP
-```
-If you do not specify the parameters, it will download the entire mapping file of all the atlases, which will take up about 3.1GB of storage space.
-```
-python download_resource.py
-```
 ### Matlab
-The TACOS toolbox, currently available for Python, will soon offer a version for MATLAB users as well.
+TACOS has the following dependencies:
+
+- **python >= 3.9**
+- **numpy>=1.21.5**
+- **scipy>=1.9.1**
+- **matplotlib>=3.5.2**
+
+TACOS can be directly downloaded from Github as follows:
+```
+https://github.com/CAIMI-WEIGroup/TACOS.git
+cd TACOS
+python setup.py install
+```
 ## Start to use TACOS
 ### How to Use convertStatistics Function
-After successfully downloading and installing the TACOS toolkit, you can use the convertStatistics function to transform source atlas t-statistics to target atlas t-statistics. This function is designed to be flexible, allowing you to specify paths to your data files and select the appropriate atlases and transformation form.
+After successfully downloading and installing the TACOS toolkit, you can use the convertStatistics function to transform source atlas t-statistics to target atlas t-statistics. This function allowed you to specify paths to your data files and select the appropriate atlases and transformation form. The transformed t-statistics matrix in the target atlas and will be saved as '.csv' in current directory.
 ### Usage
 To call the convertStatistics function, follow the template below in your Python script:
 ```
 from TACOS import convertStatistics
+
 convertStatistics(
     sourceT_Path='path/to/your/source_t_statistics.csv',
-    controlS_Path='path/to/your/control_group_variance.csv',
-    patientS_Path='path/to/your/patient_group_variance.csv',
     source_Atlas='SourceAtlasName',
     target_Atlas='TargetAtlasName',
-    form='transformationForm'
+    form='transformationForm',
+    controlS_Path='path/to/your/control_group_variance.csv',
+    patientS_Path='path/to/your/patient_group_variance.csv'
+)
+```
+Or in your Matlab script:
+```
+convertStatistics(
+    sourceT_Path='path/to/your/source_t_statistics.csv',
+    source_Atlas='SourceAtlasName',
+    target_Atlas='TargetAtlasName',
+    form='transformationForm',
+    controlS_Path='path/to/your/control_group_variance.csv',
+    patientS_Path='path/to/your/patient_group_variance.csv'
 )
 ```
 Replace the paths and parameters with those relevant to your data and analysis needs. Below are descriptions for each parameter:
-- **sourceT_Path (required)**: Path to the CSV or TXT file containing source t-statistics.
-- **controlS_Path (optional)**: Path to the CSV or TXT file containing control group variance matrix. If not provided, a default variance matrix derived from the HCP dataset will be used.
-- **patientS_Path (optional)**: Path to the CSV or TXT file containing patient group variance matrix. Similarly, if not provided, a default variance matrix from the HCP dataset will be utilized.
+- **sourceT_Path (required)**: Path to the CSV file containing source t-statistics.
 - **source_Atlas (required)**: Name of the source atlas. Please ensure it aligns with one of the supported atlases by TACOS.
 - **target_Atlas (required)**: Name of the target atlas. Make sure to choose from the atlases supported by TACOS.
 - **form (required)**: Specifies whether the transformation is 'functional' or 'structural'.
+- **controlS_Path (optional)**: Path to the CSV file containing control group variance matrix. If not provided, a default variance matrix derived from the HCP dataset will be used.
+- **patientS_Path (optional)**: Path to the CSV file containing patient group variance matrix. Similarly, if not provided, a default variance matrix from the HCP dataset will be used.
 
 Beloe are the source and target atlases supported by TACOS:
 - **target_Atlas**: ['aal', 'DK114', 'Schaefer200', 'HCP_MMP']
 - **source_Atlas**: ['aal', 'DK114', 'Schaefer200', 'HCP_MMP', 'DK',  'DK219', 'BN', 'arslan', 'baldassano', 'Brodmann', 'economo', 'ica', 'nspn500', 'power', 'shen', 'Schaefer300', 'Schaefer400']
 ### Important Notes
-Before calling the convertStatistics function, ensure that the brain region order in your source t-statistics aligns with the TACOS-provided brain region order for the specified source atlas. Failing to align the brain region order could result in incorrect analysis outcomes. For the specific brain region order, please see the [TACOS/resources/region_order](resources/region_order).
+Before calling the convertStatistics function, ensure that the brain region order in your source t-statistics aligns with the TACOS-provided brain region order for the specified source atlas. Failing to align the brain region order could result in incorrect analysis outcomes. For the specific brain region order, please see the [TACOS/Python/TACOS/resources/region_order](Python/TACOS/resources/region_order).
 ## Resource
 To enhance your experience with TACOS and ensure successful analyses, we have compiled a list of resources that you might find helpful:
 - **TACOS Documentation**: Comprehensive guide and reference for using TACOS. [View Documentation](README.md).
-- **Supported Atlases**: A detailed list of all brain atlases that TACOS supports, including their brain region orders. [View Supported Atlases](resources/region_order).
-- **Source Code**: Explore the TACOS source code for a deeper understanding of the tool. [View on GitHub](code).
+- **Supported Atlases and Region orders**: A detailed list of all brain atlases that TACOS supports, including their brain region orders. [View Supported Atlases](Python/TACOS/resources/region_order).
+- **Default Variance Matrix**:  The default variance matrix from the HCP dataset in atlases supported by TACOS.[Default Variance Matrix](Python/TACOS/resources/region_order/default_variance).
+- **Source Code**: Explore the TACOS source code for a deeper understanding of the tool. [View in Python](Python/TACOS). [View in Matlab](Matlab/TACOS).
 - **Citing TACOS**: If you use TACOS in your research, please consider citing it. [Citation Information](#).
 For any additional information or support, feel free to contact us at [yongbin.wei@bupt.edu.cn](yongbin.wei@bupt.edu.cn).
 ## Licence
