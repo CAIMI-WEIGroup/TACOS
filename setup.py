@@ -11,7 +11,6 @@ setup(
     author_email='yongbin.wei@bupt.edu.cn',
     install_requires=[
         'numpy',
-        'scipy',
         'matplotlib',
     ],
     package_data={
@@ -28,5 +27,5 @@ setup(
         "License :: OSI Approved :: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
         'Programming Language :: Python :: 3',
     ],
-    python_requires='>=3.9',
+    python_requires='>=3.6',
 )

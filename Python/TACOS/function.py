@@ -4,7 +4,6 @@ import matplotlib.colors as mcolors
 import pkg_resources
 import scipy.io as io
 def _readTxt(path):
-    # 获取资源的绝对路径
     absolute_path = pkg_resources.resource_filename('TACOS', path)
 
     dataMat = []
@@ -33,12 +32,8 @@ def _readTxtfromme(path):
 
 
 def _load_mat_file(relative_path):
-    # 使用 pkg_resources 获取资源文件的绝对路径
     absolute_path = pkg_resources.resource_filename('TACOS', relative_path)
-
-    # 使用 scipy.io.loadmat 加载 .mat 文件
     coefficient = io.loadmat(absolute_path)
-
     return coefficient
 
 

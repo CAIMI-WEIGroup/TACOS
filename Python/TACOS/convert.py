@@ -1,5 +1,6 @@
 import numpy as np
 import math
+import os
 from .function import _readTxt
 from .function import _packmat
 from .function import _unpackmat
@@ -19,7 +20,7 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
     - patient_S (optional): Patient group variance matrix, defaults to simulated variance matrix derived from the HCP dataset not provided.
 
     Returns:
-    The transformed t-statistics matrix in target atlas and it will be saved as '.csv' in 'Python/result/'.
+    The transformed t-statistics matrix in target atlas and will be saved as '.csv' in current directory.
     """
 
     # Validate source_Atlas, target_Atlas, and form
@@ -30,8 +31,8 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
     if form not in ['functional', 'structural']:
         raise ValueError("form must be either 'functional' or 'structural'.")
 
-    thresholdPath = 'resources/threshold/' + target_Atlas + '_threshold0.6.txt'
-    brainCorresponding = 'resources/overlap/' +target_Atlas + '_to_' + source_Atlas + '.txt'
+    thresholdPath = os.path.join('resources', 'threshold', target_Atlas + '_threshold0.6.txt')
+    brainCorresponding = os.path.join('resources', 'overlap', f'{target_Atlas}_to_{source_Atlas}.txt')
     brainGraph = _readTxt(brainCorresponding)
     target_Len = brainGraph.shape[0]
     source_Len = brainGraph.shape[1]
@@ -43,30 +44,30 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
         threshold = np.zeros((target_Len,target_Len)) + 1
         if target_Atlas == 'Schaefer200':
             threshold = np.zeros((200, 200)) + 1
-        coefficient = _load_mat_file('resources/coefficient/F_' + target_Atlas + '_from_' + source_Atlas + '.mat')['F_'+target_Atlas+'_from_'+source_Atlas][0]
+        coefficient = _load_mat_file(os.path.join('resources', 'coefficient', f'F_{target_Atlas}_from_{source_Atlas}.mat'))['F_'+target_Atlas+'_from_'+source_Atlas][0]
 
         # Set default values for control_S and patient_S if not provided
         if controlS_Path is None:
-            controlS_Path = 'resources/default_variance/S_HCP_'+source_Atlas+'_FC.csv'
+            controlS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_FC.csv')
             control_S = _readTxt(controlS_Path)
         else:
             control_S = _readTxtfromme(controlS_Path)
         if patientS_Path is None:
-            patientS_Path = 'resources/default_variance/S_HCP_'+source_Atlas+'_FC.csv'
+            controlS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_FC.csv')
             patient_S = _readTxt(patientS_Path)
         else:
             patient_S = _readTxtfromme(patientS_Path)
     if form == 'structural':
         threshold = _readTxt(thresholdPath)
-        coefficient = _load_mat_file('./resources/coefficient/S_' + target_Atlas + '_from_' + source_Atlas + '.mat')['S_'+target_Atlas+'_from_'+source_Atlas][0]
+        coefficient = _load_mat_file(os.path.join('resources', 'coefficient', f'S_{target_Atlas}_from_{source_Atlas}.mat'))['S_'+target_Atlas+'_from_'+source_Atlas][0]
         # Set default values for control_S and patient_S if not provided
         if controlS_Path is None:
-            controlS_Path = 'resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
+            controlS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_SC.csv')
             control_S = _readTxt(controlS_Path)
         else:
             control_S = _readTxtfromme(controlS_Path)
         if patientS_Path is None:
-            patientS_Path = 'resources/default_variance/S_HCP_' + source_Atlas + '_SC.csv'
+            controlS_Path = os.path.join('resources', 'default_variance', f'S_HCP_{source_Atlas}_SC.csv')
             patient_S = _readTxt(patientS_Path)
         else:
             patient_S = _readTxtfromme(patientS_Path)
