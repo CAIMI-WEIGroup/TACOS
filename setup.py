@@ -6,7 +6,6 @@ setup(
     packages=find_packages(where='Python'),
     package_dir={'': 'Python'},
     description='Transform source atlas t-statistics to target atlas t-statistics',
-    long_description=open('README.md').read(),
     author='Qingyuan Liu',
     author_email='yongbin.wei@bupt.edu.cn',
     install_requires=[
