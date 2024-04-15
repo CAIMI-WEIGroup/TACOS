@@ -12,7 +12,7 @@ TACOS has the following dependencies:
 
 TACOS can be directly downloaded from Github as follows:
 ```
-https://github.com/CAIMI-WEIGroup/TACOS.git
+git clone https://github.com/CAIMI-WEIGroup/TACOS.git
 cd TACOS
 python setup.py install
 ```
@@ -26,7 +26,7 @@ TACOS has the following dependencies:
 
 TACOS can be directly downloaded from Github as follows:
 ```
-https://github.com/CAIMI-WEIGroup/TACOS.git
+git clone https://github.com/CAIMI-WEIGroup/TACOS.git
 cd TACOS
 python setup.py install
 ```
@@ -75,7 +75,7 @@ Before calling the convertStatistics function, ensure that the brain region orde
 To enhance your experience with TACOS and ensure successful analyses, we have compiled a list of resources that you might find helpful:
 - **TACOS Documentation**: Comprehensive guide and reference for using TACOS. [View Documentation](README.md).
 - **Supported Atlases and Region orders**: A detailed list of all brain atlases that TACOS supports, including their brain region orders. [View Supported Atlases](Python/TACOS/resources/region_order).
-- **Default Variance Matrix**:  The default variance matrix from the HCP dataset in atlases supported by TACOS.[Default Variance Matrix](Python/TACOS/resources/region_order/default_variance).
+- **Default Variance Matrix**:  The default variance matrix from the HCP dataset in atlases supported by TACOS.[Default Variance Matrix](Python/TACOS/resources/default_variance).
 - **Source Code**: Explore the TACOS source code for a deeper understanding of the tool. [View in Python](Python/TACOS). [View in Matlab](Matlab/TACOS).
 - **Citing TACOS**: If you use TACOS in your research, please consider citing it. [Citation Information](#).
 For any additional information or support, feel free to contact us at [yongbin.wei@bupt.edu.cn](yongbin.wei@bupt.edu.cn).
