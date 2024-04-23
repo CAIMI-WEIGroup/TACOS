@@ -17,19 +17,20 @@ cd TACOS
 python setup.py install
 ```
 ### Matlab
-TACOS has the following dependencies:
-
-- **python >= 3.9**
-- **numpy>=1.21.5**
-- **scipy>=1.9.1**
-- **matplotlib>=3.5.2**
-
 TACOS can be directly downloaded from Github as follows:
 ```
 git clone https://github.com/CAIMI-WEIGroup/TACOS.git
-cd TACOS
-python setup.py install
 ```
+Navigate to the directory containing the `installToolbox.m` script in MATLAB's command window. You can use the `cd` command to change your current folder to the toolbox directory:
+```matlab
+cd 'path_to_TACOS'
+```
+Replace `path_to_TACOS` with the actual path where the TACOS Toolbox has been downloaded on your system.
+Run the `installToolbox.m` script to set up the toolbox:
+```matlab
+installToolbox
+```
+This will add the necessary paths to MATLAB's search path and set up any required resources.
 ## Start to use TACOS
 ### How to Use convertStatistics Function
 After successfully downloading and installing the TACOS toolkit, you can use the convertStatistics function to transform source atlas t-statistics to target atlas t-statistics. This function allowed you to specify paths to your data files and select the appropriate atlases and transformation form. The transformed t-statistics matrix in the target atlas and will be saved as '.csv' in current directory.
@@ -50,13 +51,13 @@ convertStatistics(
 Or in your Matlab script:
 ```
 convertStatistics(
-    sourceT_Path='path/to/your/source_t_statistics.csv',
-    source_Atlas='SourceAtlasName',
-    target_Atlas='TargetAtlasName',
-    form='transformationForm',
-    controlS_Path='path/to/your/control_group_variance.csv',
-    patientS_Path='path/to/your/patient_group_variance.csv'
-)
+    'sourceT_Path', 'path/to/your/source_t_statistics.csv', ...
+    'source_Atlas', 'SourceAtlasName', ...
+    'target_Atlas', 'TargetAtlasName', ...
+    'form', 'transformationForm', ...
+    'controlS_Path', 'path/to/your/control_group_variance.csv', ...
+    'patientS_Path', 'path/to/your/patient_group_variance.csv'
+);
 ```
 Replace the paths and parameters with those relevant to your data and analysis needs. Below are descriptions for each parameter:
 - **sourceT_Path (required)**: Path to the CSV file containing source t-statistics.
