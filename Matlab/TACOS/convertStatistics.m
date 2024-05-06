@@ -89,7 +89,7 @@
         patient_S = readTxt(patientS_Path);
     elseif strcmp(form, 'structural')
         threshold = readTxt(thresholdPath);
-        coefficient = importdata(fullfile(path_to_resources, 'coefficient', ['S_', target_Atlas, '_from_', source_Atlas, '.mat']), ['S_', target_Atlas, '_from_', source_Atlas]);
+        coefficient = importdata(fullfile( ['S_', target_Atlas, '_from_', source_Atlas, '.mat']), ['S_', target_Atlas, '_from_', source_Atlas]);
 
         % Set default values for control_S and patient_S if not provided
         controlS_Path = setDefault(controlS_Path, ['S_HCP_', source_Atlas, '_SC.csv']);
@@ -145,6 +145,7 @@
     csvwrite(['transformed_', target_Atlas, '_', source_Atlas, '.csv'], transformed_T);
     matShow(['transformed_' target_Atlas], transformed_T);
     matShow(['source_' source_Atlas], source_T);
+    fprintf('The transformed t-statistics have been saved as transformed_%s_%s.csv in the current directory.\n', target_Atlas, source_Atlas);
 end
 
 function outPath = setDefault(inPath,defaultFile)

@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import pkg_resources
 import scipy.io as io
+import os
 def _readTxt(path):
+
     absolute_path = pkg_resources.resource_filename('TACOS', path)
 
     dataMat = []
@@ -18,7 +20,7 @@ def _readTxt(path):
     return dataMat
 
 def _readTxtfromme(path):
-
+    path = os.path.expanduser(path)
     dataMat = []
     with open(path, 'r') as file:
         for line in file.readlines():

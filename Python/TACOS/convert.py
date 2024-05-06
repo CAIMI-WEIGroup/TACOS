@@ -112,7 +112,5 @@ def convertStatistics(*, sourceT_Path, controlS_Path=None, patientS_Path=None, s
     _matShow('transformed_' + target_Atlas, transformed_T)
     _matShow('source_' + source_Atlas, source_T)
 
+    print("The transformed t-statistics have been saved as " + 'transformed_{}_{}.csv'.format(target_Atlas,source_Atlas) + " in the current directory.")
     return transformed_T
-
-
-
