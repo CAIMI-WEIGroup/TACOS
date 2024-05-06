@@ -53,7 +53,7 @@ convertStatistics(
 
 Parameter:
 - **sourceT_Path (required)**: Path to the CSV file containing a t-value matrix in the source atlas.
-- **source_Atlas (required)**: Name of the source atlas. Currently available: 'aal', 'DK114', 'Schaefer200', 'HCP_MMP', 'DK',  'DK219', 'BN', 'arslan', 'baldassano', 'Brodmann', 'economo', 'ica', 'nspn500', 'power', 'shen', 'Schaefer300', 'Schaefer400'
+- **source_Atlas (required)**: Name of the source atlas. Currently available: 'aal', 'DK114', 'Schaefer200', 'HCP_MMP', 'DK',  'DK219', 'BN', 'arslan', 'baldassano', 'Brodmann', 'economo', 'ica', 'nspn500', 'power', 'shen', 'Schaefer300', 'Schaefer400'.
 - **target_Atlas (required)**: Name of the target atlas. Currently available: 'aal', 'DK114', 'Schaefer200', 'HCP_MMP'
 - **form (required)**: Data type:  'functional' for functional network; 'structural' for structural network.
 
@@ -100,7 +100,7 @@ convertStatistics(...
 ```
 
 ### Important Notes
-Before calling the convertStatistics function, ensure that the brain region order in your source t-statistics aligns with the TACOS-provided brain region order for the specified source atlas. Failing to align the brain region order could result in incorrect analysis outcomes. For the specific brain region order, please see the [TACOS/region_order](region_order).
+Before calling the convertStatistics function, ensure that the brain region order in your source t-statistics aligns with the TACOS-provided brain region order for the specified source atlas. Failing to align the brain region order could result in incorrect analysis outcomes. For the specific brain region order, please see the [region_order](region_order).
 
 ## Resource
 To enhance your experience with TACOS and ensure successful analyses, we have compiled a list of resources that you might find helpful:
