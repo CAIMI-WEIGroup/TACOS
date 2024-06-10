@@ -21,7 +21,7 @@ python setup.py install
 ### Matlab
 TACOS can be directly downloaded from Github as follows:
 ```
-git clone https://github.com/CAIMI-WEIGroup/TACOS.git
+git clone --depth 1 https://github.com/CAIMI-WEIGroup/TACOS.git
 ```
 Start MATLAB and navigate to the directory containing the `installation.m` script:
 ```matlab
