@@ -8,10 +8,10 @@ from TACOS import convertStatistics
 # Example 1: Using estimated group variance maps from the HCP data
 '''
 transformed_tval = convertStatistics(
-    source_tval='SOURCE_T_STATISTICS_FILE',
-    source_atlas='SOURCE_ATLAS_NAME',
-    target_atlas='TARGET_ATLAS_NAME',
-    type='CONNECTIVITY_TYPE',
+    source_tval='DK219_SOURCE_T_STATISTICS_FILE.csv',
+    source_atlas='DK219',
+    target_atlas='DK114',
+    type='functional',
 )
 '''
 
