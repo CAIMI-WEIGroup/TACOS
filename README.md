@@ -13,7 +13,7 @@ TACOS has the following dependencies:
 
 TACOS can be directly downloaded from Github as follows:
 ```
-git clone https://github.com/CAIMI-WEIGroup/TACOS.git
+git clone --depth 1 https://github.com/CAIMI-WEIGroup/TACOS.git
 cd TACOS
 python setup.py install
 ```
