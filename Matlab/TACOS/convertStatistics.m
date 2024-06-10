@@ -22,10 +22,9 @@
     addParameter(p, 'source_atlas', '', @ischar);
     addParameter(p, 'target_atlas', '', @ischar);
     addParameter(p, 'type', '', @ischar);
-    addParameter(p, 'save_transformed_tval', '', @ischar);
-    addParameter(p, 'display_transformed_tval', '', @ischar);
+    addParameter(p, 'save_transformed_tval', false, @(x) islogical(x) || isempty(x));
+    addParameter(p, 'display_transformed_tval', false, @(x) islogical(x) || isempty(x));
 
-    
     parse(p, varargin{:});
 
     required_params = {'source_tval', 'source_atlas', 'target_atlas', 'type'};
