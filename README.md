@@ -77,7 +77,7 @@ transformed_tval = convertStatistics(
 
 - **variance_group1 (optional)**: A .csv file containing the variance matrix of group 1. If not provided, a default variance matrix derived from the HCP dataset will be used.
 - **variance_group2 (optional)**: A .csv file containing the variance matrix of group 2. If not provided, a default variance matrix derived from the HCP dataset will be used.
-- **save_transformed_tval (optional)**: Whether to store the transformed tval as csv, acceptable value is `True` or `False`. defaults to `False` if not provided.
+- **save_transformed_tval (optional)**: Whether to store the transformed tval as csv, acceptable value is `True` or `False`, defaults to `False` if not provided.
 - **display_transformed_tval (optional)**: Whether to display the transformed tval as svg, acceptable value is `True` or `False`, defaults to `False` if not provided.
 
 ### MATLAB Usage
