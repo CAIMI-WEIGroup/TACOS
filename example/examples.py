@@ -1,5 +1,3 @@
-# Example file: How to use TACOS to transform t-values from DK219 to DK114 atlas
-
 # This example demonstrates how to use the TACOS toolbox to transform t-values from the DK219 atlas to the DK114 atlas.
 # The t-values and variance matrix for the DK219 atlas are stored in 'TACOS/example'.
 
