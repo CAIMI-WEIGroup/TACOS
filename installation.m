@@ -1,4 +1,4 @@
-function installToolbox()
+function installation()
 scriptDir = fileparts(mfilename("fullpath"));
 addpath(fullfile(scriptDir,'Matlab','TACOS'));
 addpath(fullfile(scriptDir,'Python','TACOS','resources','coefficient'));

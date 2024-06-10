@@ -30,7 +30,7 @@ cd 'TOOLBOX_DIRECTORY'
 Replace `TOOLBOX_DIRECTORY` with the actual directory where the TACOS Toolbox has been downloaded.
 Run the `installation.m` script to set up the toolbox:
 ```matlab
-./installation.m
+installation
 ```
 This will add the necessary paths to MATLAB's search path and set up any required resources.
 
