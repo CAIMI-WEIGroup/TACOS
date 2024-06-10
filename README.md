@@ -107,7 +107,7 @@ convertStatistics(...
 ```
 
 ### Important Notes
-Before calling the convertStatistics function, ensure that the brain region order in your source t-statistics aligns with the TACOS-provided brain region order for the specified source atlas. Failing to align the brain region order could result in incorrect analysis outcomes. For the specific brain region order, please see the [TACOS/region_order] (region_order).
+Before calling the convertStatistics function, ensure that the brain region order in your source t-statistics aligns with the TACOS-provided brain region order for the specified source atlas. Failing to align the brain region order could result in incorrect analysis outcomes. For the specific brain region order, please see the [TACOS/region_order](region_order).
 
 ### Examples
 Example scripts are available for both Python and Matlab. Please find details in [examples.py](example/examples.py) and [examples.m](example/examples.m).
