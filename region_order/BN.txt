@@ -1,210 +1,210 @@
-'ctx-lh-A8m_L'
-'ctx-lh-A8dl_L'
-'ctx-lh-A9l_L'
-'ctx-lh-A6dl_L'
-'ctx-lh-A6m_L'
-'ctx-lh-A9m_L'
-'ctx-lh-A10m_L'
-'ctx-lh-A9_46d_L'
-'ctx-lh-IFJ_L'
-'ctx-lh-A46_L'
-'ctx-lh-A9_46v_L'
-'ctx-lh-A8vl_L'
-'ctx-lh-A6vl_L'
-'ctx-lh-A10l_L'
-'ctx-lh-A44d_L'
-'ctx-lh-IFS_L'
-'ctx-lh-A45c_L'
-'ctx-lh-A45r_L'
-'ctx-lh-A44op_L'
-'ctx-lh-A44v_L'
-'ctx-lh-A14m_L'
-'ctx-lh-A12_47o_L'
-'ctx-lh-A11l_L'
-'ctx-lh-A11m_L'
-'ctx-lh-A13_L'
-'ctx-lh-A12_47l_L'
-'ctx-lh-A4hf_L'
-'ctx-lh-A6cdl_L'
-'ctx-lh-A4ul_L'
-'ctx-lh-A4t_L'
-'ctx-lh-A4tl_L'
-'ctx-lh-A6cvl_L'
-'ctx-lh-A1_2_3ll_L'
-'ctx-lh-A4ll_L'
-'ctx-lh-A38m_L'
-'ctx-lh-A41_42_L'
-'ctx-lh-TE1_0_TE1_2_L'
-'ctx-lh-A22c_L'
-'ctx-lh-A38l_L'
-'ctx-lh-A22r_L'
-'ctx-lh-A21c_L'
-'ctx-lh-A21r_L'
-'ctx-lh-A37dl_L'
-'ctx-lh-aSTS_L'
-'ctx-lh-A20iv_L'
-'ctx-lh-A37elv_L'
-'ctx-lh-A20r_L'
-'ctx-lh-A20il_L'
-'ctx-lh-A37vl_L'
-'ctx-lh-A20cl_L'
-'ctx-lh-A20cv_L'
-'ctx-lh-A20rv_L'
-'ctx-lh-A37mv_L'
-'ctx-lh-A37lv_L'
-'ctx-lh-A35_36r_L'
-'ctx-lh-A35_36c_L'
-'ctx-lh-TL_L'
-'ctx-lh-A28_34_L'
-'ctx-lh-TI_L'
-'ctx-lh-TH_L'
-'ctx-lh-rpSTS_L'
-'ctx-lh-cpSTS_L'
-'ctx-lh-A7r_L'
-'ctx-lh-A7c_L'
-'ctx-lh-A5l_L'
-'ctx-lh-A7pc_L'
-'ctx-lh-A7ip_L'
-'ctx-lh-A39c_L'
-'ctx-lh-A39rd_L'
-'ctx-lh-A40rd_L'
-'ctx-lh-A40c_L'
-'ctx-lh-A39rv_L'
-'ctx-lh-A40rv_L'
-'ctx-lh-A7m_L'
-'ctx-lh-A5m_L'
-'ctx-lh-dmPOS_L'
-'ctx-lh-A31_L'
-'ctx-lh-A1_2_3ulhf_L'
-'ctx-lh-A1_2_3tonIa_L'
-'ctx-lh-A2_L'
-'ctx-lh-A1_2_3tru_L'
-'ctx-lh-G_L'
-'ctx-lh-vIa_L'
-'ctx-lh-dIa_L'
-'ctx-lh-vId_vIg_L'
-'ctx-lh-dIg_L'
-'ctx-lh-dId_L'
-'ctx-lh-A23d_L'
-'ctx-lh-A24rv_L'
-'ctx-lh-A32p_L'
-'ctx-lh-A23v_L'
-'ctx-lh-A24cd_L'
-'ctx-lh-A23c_L'
-'ctx-lh-A32sg_L'
-'ctx-lh-cLinG_L'
-'ctx-lh-rCunG_L'
-'ctx-lh-cCunG_L'
-'ctx-lh-rLinG_L'
-'ctx-lh-vmPOS_L'
-'ctx-lh-mOccG_L'
-'ctx-lh-V5_MT_L'
-'ctx-lh-OPC_L'
-'ctx-lh-iOccG_L'
-'ctx-lh-msOccG_L'
-'ctx-lh-lsOccG_L'
-'ctx-rh-A8m_R'
-'ctx-rh-A8dl_R'
-'ctx-rh-A9l_R'
-'ctx-rh-A6dl_R'
-'ctx-rh-A6m_R'
-'ctx-rh-A9m_R'
-'ctx-rh-A10m_R'
-'ctx-rh-A9_46d_R'
-'ctx-rh-IFJ_R'
-'ctx-rh-A46_R'
-'ctx-rh-A9_46v_R'
-'ctx-rh-A8vl_R'
-'ctx-rh-A6vl_R'
-'ctx-rh-A10l_R'
-'ctx-rh-A44d_R'
-'ctx-rh-IFS_R'
-'ctx-rh-A45c_R'
-'ctx-rh-A45r_R'
-'ctx-rh-A44op_R'
-'ctx-rh-A44v_R'
-'ctx-rh-A14m_R'
-'ctx-rh-A12_47o_R'
-'ctx-rh-A11l_R'
-'ctx-rh-A11m_R'
-'ctx-rh-A13_R'
-'ctx-rh-A12_47l_R'
-'ctx-rh-A4hf_R'
-'ctx-rh-A6cdl_R'
-'ctx-rh-A4ul_R'
-'ctx-rh-A4t_R'
-'ctx-rh-A4tl_R'
-'ctx-rh-A6cvl_R'
-'ctx-rh-A1_2_3ll_R'
-'ctx-rh-A4ll_R'
-'ctx-rh-A38m_R'
-'ctx-rh-A41_42_R'
-'ctx-rh-TE1_0_TE1_2_R'
-'ctx-rh-A22c_R'
-'ctx-rh-A38l_R'
-'ctx-rh-A22r_R'
-'ctx-rh-A21c_R'
-'ctx-rh-A21r_R'
-'ctx-rh-A37dl_R'
-'ctx-rh-aSTS_R'
-'ctx-rh-A20iv_R'
-'ctx-rh-A37elv_R'
-'ctx-rh-A20r_R'
-'ctx-rh-A20il_R'
-'ctx-rh-A37vl_R'
-'ctx-rh-A20cl_R'
-'ctx-rh-A20cv_R'
-'ctx-rh-A20rv_R'
-'ctx-rh-A37mv_R'
-'ctx-rh-A37lv_R'
-'ctx-rh-A35_36r_R'
-'ctx-rh-A35_36c_R'
-'ctx-rh-TL_R'
-'ctx-rh-A28_34_R'
-'ctx-rh-TI_R'
-'ctx-rh-TH_R'
-'ctx-rh-rpSTS_R'
-'ctx-rh-cpSTS_R'
-'ctx-rh-A7r_R'
-'ctx-rh-A7c_R'
-'ctx-rh-A5l_R'
-'ctx-rh-A7pc_R'
-'ctx-rh-A7ip_R'
-'ctx-rh-A39c_R'
-'ctx-rh-A39rd_R'
-'ctx-rh-A40rd_R'
-'ctx-rh-A40c_R'
-'ctx-rh-A39rv_R'
-'ctx-rh-A40rv_R'
-'ctx-rh-A7m_R'
-'ctx-rh-A5m_R'
-'ctx-rh-dmPOS_R'
-'ctx-rh-A31_R'
-'ctx-rh-A1_2_3ulhf_R'
-'ctx-rh-A1_2_3tonIa_R'
-'ctx-rh-A2_R'
-'ctx-rh-A1_2_3tru_R'
-'ctx-rh-G_R'
-'ctx-rh-vIa_R'
-'ctx-rh-dIa_R'
-'ctx-rh-vId_vIg_R'
-'ctx-rh-dIg_R'
-'ctx-rh-dId_R'
-'ctx-rh-A23d_R'
-'ctx-rh-A24rv_R'
-'ctx-rh-A32p_R'
-'ctx-rh-A23v_R'
-'ctx-rh-A24cd_R'
-'ctx-rh-A23c_R'
-'ctx-rh-A32sg_R'
-'ctx-rh-cLinG_R'
-'ctx-rh-rCunG_R'
-'ctx-rh-cCunG_R'
-'ctx-rh-rLinG_R'
-'ctx-rh-vmPOS_R'
-'ctx-rh-mOccG_R'
-'ctx-rh-V5_MT_R'
-'ctx-rh-OPC_R'
-'ctx-rh-iOccG_R'
-'ctx-rh-msOccG_R'
-'ctx-rh-lsOccG_R'
+ctx-lh-A8m_L	A8m_L
+ctx-lh-A8dl_L	A8dl_L
+ctx-lh-A9l_L	A9l_L
+ctx-lh-A6dl_L	A6dl_L
+ctx-lh-A6m_L	A6m_L
+ctx-lh-A9m_L	A9m_L
+ctx-lh-A10m_L	A10m_L
+ctx-lh-A9_46d_L	A9_46d_L
+ctx-lh-IFJ_L	IFJ_L
+ctx-lh-A46_L	A46_L
+ctx-lh-A9_46v_L	A9_46v_L
+ctx-lh-A8vl_L	A8vl_L
+ctx-lh-A6vl_L	A6vl_L
+ctx-lh-A10l_L	A10l_L
+ctx-lh-A44d_L	A44d_L
+ctx-lh-IFS_L	IFS_L
+ctx-lh-A45c_L	A45c_L
+ctx-lh-A45r_L	A45r_L
+ctx-lh-A44op_L	A44op_L
+ctx-lh-A44v_L	A44v_L
+ctx-lh-A14m_L	A14m_L
+ctx-lh-A12_47o_L	A12_47o_L
+ctx-lh-A11l_L	A11l_L
+ctx-lh-A11m_L	A11m_L
+ctx-lh-A13_L	A13_L
+ctx-lh-A12_47l_L	A12_47l_L
+ctx-lh-A4hf_L	A4hf_L
+ctx-lh-A6cdl_L	A6cdl_L
+ctx-lh-A4ul_L	A4ul_L
+ctx-lh-A4t_L	A4t_L
+ctx-lh-A4tl_L	A4tl_L
+ctx-lh-A6cvl_L	A6cvl_L
+ctx-lh-A1_2_3ll_L	A1_2_3ll_L
+ctx-lh-A4ll_L	A4ll_L
+ctx-lh-A38m_L	A38m_L
+ctx-lh-A41_42_L	A41_42_L
+ctx-lh-TE1_0_TE1_2_L	TE1_0_TE1_2_L
+ctx-lh-A22c_L	A22c_L
+ctx-lh-A38l_L	A38l_L
+ctx-lh-A22r_L	A22r_L
+ctx-lh-A21c_L	A21c_L
+ctx-lh-A21r_L	A21r_L
+ctx-lh-A37dl_L	A37dl_L
+ctx-lh-aSTS_L	aSTS_L
+ctx-lh-A20iv_L	A20iv_L
+ctx-lh-A37elv_L	A37elv_L
+ctx-lh-A20r_L	A20r_L
+ctx-lh-A20il_L	A20il_L
+ctx-lh-A37vl_L	A37vl_L
+ctx-lh-A20cl_L	A20cl_L
+ctx-lh-A20cv_L	A20cv_L
+ctx-lh-A20rv_L	A20rv_L
+ctx-lh-A37mv_L	A37mv_L
+ctx-lh-A37lv_L	A37lv_L
+ctx-lh-A35_36r_L	A35_36r_L
+ctx-lh-A35_36c_L	A35_36c_L
+ctx-lh-TL_L	TL_L
+ctx-lh-A28_34_L	A28_34_L
+ctx-lh-TI_L	TI_L
+ctx-lh-TH_L	TH_L
+ctx-lh-rpSTS_L	rpSTS_L
+ctx-lh-cpSTS_L	cpSTS_L
+ctx-lh-A7r_L	A7r_L
+ctx-lh-A7c_L	A7c_L
+ctx-lh-A5l_L	A5l_L
+ctx-lh-A7pc_L	A7pc_L
+ctx-lh-A7ip_L	A7ip_L
+ctx-lh-A39c_L	A39c_L
+ctx-lh-A39rd_L	A39rd_L
+ctx-lh-A40rd_L	A40rd_L
+ctx-lh-A40c_L	A40c_L
+ctx-lh-A39rv_L	A39rv_L
+ctx-lh-A40rv_L	A40rv_L
+ctx-lh-A7m_L	A7m_L
+ctx-lh-A5m_L	A5m_L
+ctx-lh-dmPOS_L	dmPOS_L
+ctx-lh-A31_L	A31_L
+ctx-lh-A1_2_3ulhf_L	A1_2_3ulhf_L
+ctx-lh-A1_2_3tonIa_L	A1_2_3tonIa_L
+ctx-lh-A2_L	A2_L
+ctx-lh-A1_2_3tru_L	A1_2_3tru_L
+ctx-lh-G_L	G_L
+ctx-lh-vIa_L	vIa_L
+ctx-lh-dIa_L	dIa_L
+ctx-lh-vId_vIg_L	vId_vIg_L
+ctx-lh-dIg_L	dIg_L
+ctx-lh-dId_L	dId_L
+ctx-lh-A23d_L	A23d_L
+ctx-lh-A24rv_L	A24rv_L
+ctx-lh-A32p_L	A32p_L
+ctx-lh-A23v_L	A23v_L
+ctx-lh-A24cd_L	A24cd_L
+ctx-lh-A23c_L	A23c_L
+ctx-lh-A32sg_L	A32sg_L
+ctx-lh-cLinG_L	cLinG_L
+ctx-lh-rCunG_L	rCunG_L
+ctx-lh-cCunG_L	cCunG_L
+ctx-lh-rLinG_L	rLinG_L
+ctx-lh-vmPOS_L	vmPOS_L
+ctx-lh-mOccG_L	mOccG_L
+ctx-lh-V5_MT_L	V5_MT_L
+ctx-lh-OPC_L	OPC_L
+ctx-lh-iOccG_L	iOccG_L
+ctx-lh-msOccG_L	msOccG_L
+ctx-lh-lsOccG_L	lsOccG_L
+ctx-rh-A8m_R	A8m_R
+ctx-rh-A8dl_R	A8dl_R
+ctx-rh-A9l_R	A9l_R
+ctx-rh-A6dl_R	A6dl_R
+ctx-rh-A6m_R	A6m_R
+ctx-rh-A9m_R	A9m_R
+ctx-rh-A10m_R	A10m_R
+ctx-rh-A9_46d_R	A9_46d_R
+ctx-rh-IFJ_R	IFJ_R
+ctx-rh-A46_R	A46_R
+ctx-rh-A9_46v_R	A9_46v_R
+ctx-rh-A8vl_R	A8vl_R
+ctx-rh-A6vl_R	A6vl_R
+ctx-rh-A10l_R	A10l_R
+ctx-rh-A44d_R	A44d_R
+ctx-rh-IFS_R	IFS_R
+ctx-rh-A45c_R	A45c_R
+ctx-rh-A45r_R	A45r_R
+ctx-rh-A44op_R	A44op_R
+ctx-rh-A44v_R	A44v_R
+ctx-rh-A14m_R	A14m_R
+ctx-rh-A12_47o_R	A12_47o_R
+ctx-rh-A11l_R	A11l_R
+ctx-rh-A11m_R	A11m_R
+ctx-rh-A13_R	A13_R
+ctx-rh-A12_47l_R	A12_47l_R
+ctx-rh-A4hf_R	A4hf_R
+ctx-rh-A6cdl_R	A6cdl_R
+ctx-rh-A4ul_R	A4ul_R
+ctx-rh-A4t_R	A4t_R
+ctx-rh-A4tl_R	A4tl_R
+ctx-rh-A6cvl_R	A6cvl_R
+ctx-rh-A1_2_3ll_R	A1_2_3ll_R
+ctx-rh-A4ll_R	A4ll_R
+ctx-rh-A38m_R	A38m_R
+ctx-rh-A41_42_R	A41_42_R
+ctx-rh-TE1_0_TE1_2_R	TE1_0_TE1_2_R
+ctx-rh-A22c_R	A22c_R
+ctx-rh-A38l_R	A38l_R
+ctx-rh-A22r_R	A22r_R
+ctx-rh-A21c_R	A21c_R
+ctx-rh-A21r_R	A21r_R
+ctx-rh-A37dl_R	A37dl_R
+ctx-rh-aSTS_R	aSTS_R
+ctx-rh-A20iv_R	A20iv_R
+ctx-rh-A37elv_R	A37elv_R
+ctx-rh-A20r_R	A20r_R
+ctx-rh-A20il_R	A20il_R
+ctx-rh-A37vl_R	A37vl_R
+ctx-rh-A20cl_R	A20cl_R
+ctx-rh-A20cv_R	A20cv_R
+ctx-rh-A20rv_R	A20rv_R
+ctx-rh-A37mv_R	A37mv_R
+ctx-rh-A37lv_R	A37lv_R
+ctx-rh-A35_36r_R	A35_36r_R
+ctx-rh-A35_36c_R	A35_36c_R
+ctx-rh-TL_R	TL_R
+ctx-rh-A28_34_R	A28_34_R
+ctx-rh-TI_R	TI_R
+ctx-rh-TH_R	TH_R
+ctx-rh-rpSTS_R	rpSTS_R
+ctx-rh-cpSTS_R	cpSTS_R
+ctx-rh-A7r_R	A7r_R
+ctx-rh-A7c_R	A7c_R
+ctx-rh-A5l_R	A5l_R
+ctx-rh-A7pc_R	A7pc_R
+ctx-rh-A7ip_R	A7ip_R
+ctx-rh-A39c_R	A39c_R
+ctx-rh-A39rd_R	A39rd_R
+ctx-rh-A40rd_R	A40rd_R
+ctx-rh-A40c_R	A40c_R
+ctx-rh-A39rv_R	A39rv_R
+ctx-rh-A40rv_R	A40rv_R
+ctx-rh-A7m_R	A7m_R
+ctx-rh-A5m_R	A5m_R
+ctx-rh-dmPOS_R	dmPOS_R
+ctx-rh-A31_R	A31_R
+ctx-rh-A1_2_3ulhf_R	A1_2_3ulhf_R
+ctx-rh-A1_2_3tonIa_R	A1_2_3tonIa_R
+ctx-rh-A2_R	A2_R
+ctx-rh-A1_2_3tru_R	A1_2_3tru_R
+ctx-rh-G_R	G_R
+ctx-rh-vIa_R	vIa_R
+ctx-rh-dIa_R	dIa_R
+ctx-rh-vId_vIg_R	vId_vIg_R
+ctx-rh-dIg_R	dIg_R
+ctx-rh-dId_R	dId_R
+ctx-rh-A23d_R	A23d_R
+ctx-rh-A24rv_R	A24rv_R
+ctx-rh-A32p_R	A32p_R
+ctx-rh-A23v_R	A23v_R
+ctx-rh-A24cd_R	A24cd_R
+ctx-rh-A23c_R	A23c_R
+ctx-rh-A32sg_R	A32sg_R
+ctx-rh-cLinG_R	cLinG_R
+ctx-rh-rCunG_R	rCunG_R
+ctx-rh-cCunG_R	cCunG_R
+ctx-rh-rLinG_R	rLinG_R
+ctx-rh-vmPOS_R	vmPOS_R
+ctx-rh-mOccG_R	mOccG_R
+ctx-rh-V5_MT_R	V5_MT_R
+ctx-rh-OPC_R	OPC_R
+ctx-rh-iOccG_R	iOccG_R
+ctx-rh-msOccG_R	msOccG_R
+ctx-rh-lsOccG_R	lsOccG_R

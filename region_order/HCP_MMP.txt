@@ -1,360 +1,360 @@
-'ctx-lh-L_V1_ROI'
-'ctx-lh-L_MST_ROI'
-'ctx-lh-L_V6_ROI'
-'ctx-lh-L_V2_ROI'
-'ctx-lh-L_V3_ROI'
-'ctx-lh-L_V4_ROI'
-'ctx-lh-L_V8_ROI'
-'ctx-lh-L_4_ROI'
-'ctx-lh-L_3b_ROI'
-'ctx-lh-L_FEF_ROI'
-'ctx-lh-L_PEF_ROI'
-'ctx-lh-L_55b_ROI'
-'ctx-lh-L_V3A_ROI'
-'ctx-lh-L_RSC_ROI'
-'ctx-lh-L_POS2_ROI'
-'ctx-lh-L_V7_ROI'
-'ctx-lh-L_IPS1_ROI'
-'ctx-lh-L_FFC_ROI'
-'ctx-lh-L_V3B_ROI'
-'ctx-lh-L_LO1_ROI'
-'ctx-lh-L_LO2_ROI'
-'ctx-lh-L_PIT_ROI'
-'ctx-lh-L_MT_ROI'
-'ctx-lh-L_A1_ROI'
-'ctx-lh-L_PSL_ROI'
-'ctx-lh-L_SFL_ROI'
-'ctx-lh-L_PCV_ROI'
-'ctx-lh-L_STV_ROI'
-'ctx-lh-L_7Pm_ROI'
-'ctx-lh-L_7m_ROI'
-'ctx-lh-L_POS1_ROI'
-'ctx-lh-L_23d_ROI'
-'ctx-lh-L_v23ab_ROI'
-'ctx-lh-L_d23ab_ROI'
-'ctx-lh-L_31pv_ROI'
-'ctx-lh-L_5m_ROI'
-'ctx-lh-L_5mv_ROI'
-'ctx-lh-L_23c_ROI'
-'ctx-lh-L_5L_ROI'
-'ctx-lh-L_24dd_ROI'
-'ctx-lh-L_24dv_ROI'
-'ctx-lh-L_7AL_ROI'
-'ctx-lh-L_SCEF_ROI'
-'ctx-lh-L_6ma_ROI'
-'ctx-lh-L_7Am_ROI'
-'ctx-lh-L_7PL_ROI'
-'ctx-lh-L_7PC_ROI'
-'ctx-lh-L_LIPv_ROI'
-'ctx-lh-L_VIP_ROI'
-'ctx-lh-L_MIP_ROI'
-'ctx-lh-L_1_ROI'
-'ctx-lh-L_2_ROI'
-'ctx-lh-L_3a_ROI'
-'ctx-lh-L_6d_ROI'
-'ctx-lh-L_6mp_ROI'
-'ctx-lh-L_6v_ROI'
-'ctx-lh-L_p24pr_ROI'
-'ctx-lh-L_33pr_ROI'
-'ctx-lh-L_a24pr_ROI'
-'ctx-lh-L_p32pr_ROI'
-'ctx-lh-L_a24_ROI'
-'ctx-lh-L_d32_ROI'
-'ctx-lh-L_8BM_ROI'
-'ctx-lh-L_p32_ROI'
-'ctx-lh-L_10r_ROI'
-'ctx-lh-L_47m_ROI'
-'ctx-lh-L_8Av_ROI'
-'ctx-lh-L_8Ad_ROI'
-'ctx-lh-L_9m_ROI'
-'ctx-lh-L_8BL_ROI'
-'ctx-lh-L_9p_ROI'
-'ctx-lh-L_10d_ROI'
-'ctx-lh-L_8C_ROI'
-'ctx-lh-L_44_ROI'
-'ctx-lh-L_45_ROI'
-'ctx-lh-L_47l_ROI'
-'ctx-lh-L_a47r_ROI'
-'ctx-lh-L_6r_ROI'
-'ctx-lh-L_IFJa_ROI'
-'ctx-lh-L_IFJp_ROI'
-'ctx-lh-L_IFSp_ROI'
-'ctx-lh-L_IFSa_ROI'
-'ctx-lh-L_p9-46v_ROI'
-'ctx-lh-L_46_ROI'
-'ctx-lh-L_a9-46v_ROI'
-'ctx-lh-L_9-46d_ROI'
-'ctx-lh-L_9a_ROI'
-'ctx-lh-L_10v_ROI'
-'ctx-lh-L_a10p_ROI'
-'ctx-lh-L_10pp_ROI'
-'ctx-lh-L_11l_ROI'
-'ctx-lh-L_13l_ROI'
-'ctx-lh-L_OFC_ROI'
-'ctx-lh-L_47s_ROI'
-'ctx-lh-L_LIPd_ROI'
-'ctx-lh-L_6a_ROI'
-'ctx-lh-L_i6-8_ROI'
-'ctx-lh-L_s6-8_ROI'
-'ctx-lh-L_43_ROI'
-'ctx-lh-L_OP4_ROI'
-'ctx-lh-L_OP1_ROI'
-'ctx-lh-L_OP2-3_ROI'
-'ctx-lh-L_52_ROI'
-'ctx-lh-L_RI_ROI'
-'ctx-lh-L_PFcm_ROI'
-'ctx-lh-L_PoI2_ROI'
-'ctx-lh-L_TA2_ROI'
-'ctx-lh-L_FOP4_ROI'
-'ctx-lh-L_MI_ROI'
-'ctx-lh-L_Pir_ROI'
-'ctx-lh-L_AVI_ROI'
-'ctx-lh-L_AAIC_ROI'
-'ctx-lh-L_FOP1_ROI'
-'ctx-lh-L_FOP3_ROI'
-'ctx-lh-L_FOP2_ROI'
-'ctx-lh-L_PFt_ROI'
-'ctx-lh-L_AIP_ROI'
-'ctx-lh-L_EC_ROI'
-'ctx-lh-L_PreS_ROI'
-'ctx-lh-L_H_ROI'
-'ctx-lh-L_ProS_ROI'
-'ctx-lh-L_PeEc_ROI'
-'ctx-lh-L_STGa_ROI'
-'ctx-lh-L_PBelt_ROI'
-'ctx-lh-L_A5_ROI'
-'ctx-lh-L_PHA1_ROI'
-'ctx-lh-L_PHA3_ROI'
-'ctx-lh-L_STSda_ROI'
-'ctx-lh-L_STSdp_ROI'
-'ctx-lh-L_STSvp_ROI'
-'ctx-lh-L_TGd_ROI'
-'ctx-lh-L_TE1a_ROI'
-'ctx-lh-L_TE1p_ROI'
-'ctx-lh-L_TE2a_ROI'
-'ctx-lh-L_TF_ROI'
-'ctx-lh-L_TE2p_ROI'
-'ctx-lh-L_PHT_ROI'
-'ctx-lh-L_PH_ROI'
-'ctx-lh-L_TPOJ1_ROI'
-'ctx-lh-L_TPOJ2_ROI'
-'ctx-lh-L_TPOJ3_ROI'
-'ctx-lh-L_DVT_ROI'
-'ctx-lh-L_PGp_ROI'
-'ctx-lh-L_IP2_ROI'
-'ctx-lh-L_IP1_ROI'
-'ctx-lh-L_IP0_ROI'
-'ctx-lh-L_PFop_ROI'
-'ctx-lh-L_PF_ROI'
-'ctx-lh-L_PFm_ROI'
-'ctx-lh-L_PGi_ROI'
-'ctx-lh-L_PGs_ROI'
-'ctx-lh-L_V6A_ROI'
-'ctx-lh-L_VMV1_ROI'
-'ctx-lh-L_VMV3_ROI'
-'ctx-lh-L_PHA2_ROI'
-'ctx-lh-L_V4t_ROI'
-'ctx-lh-L_FST_ROI'
-'ctx-lh-L_V3CD_ROI'
-'ctx-lh-L_LO3_ROI'
-'ctx-lh-L_VMV2_ROI'
-'ctx-lh-L_31pd_ROI'
-'ctx-lh-L_31a_ROI'
-'ctx-lh-L_VVC_ROI'
-'ctx-lh-L_25_ROI'
-'ctx-lh-L_s32_ROI'
-'ctx-lh-L_pOFC_ROI'
-'ctx-lh-L_PoI1_ROI'
-'ctx-lh-L_Ig_ROI'
-'ctx-lh-L_FOP5_ROI'
-'ctx-lh-L_p10p_ROI'
-'ctx-lh-L_p47r_ROI'
-'ctx-lh-L_TGv_ROI'
-'ctx-lh-L_MBelt_ROI'
-'ctx-lh-L_LBelt_ROI'
-'ctx-lh-L_A4_ROI'
-'ctx-lh-L_STSva_ROI'
-'ctx-lh-L_TE1m_ROI'
-'ctx-lh-L_PI_ROI'
-'ctx-lh-L_a32pr_ROI'
-'ctx-lh-L_p24_ROI'
-'ctx-rh-R_V1_ROI'
-'ctx-rh-R_MST_ROI'
-'ctx-rh-R_V6_ROI'
-'ctx-rh-R_V2_ROI'
-'ctx-rh-R_V3_ROI'
-'ctx-rh-R_V4_ROI'
-'ctx-rh-R_V8_ROI'
-'ctx-rh-R_4_ROI'
-'ctx-rh-R_3b_ROI'
-'ctx-rh-R_FEF_ROI'
-'ctx-rh-R_PEF_ROI'
-'ctx-rh-R_55b_ROI'
-'ctx-rh-R_V3A_ROI'
-'ctx-rh-R_RSC_ROI'
-'ctx-rh-R_POS2_ROI'
-'ctx-rh-R_V7_ROI'
-'ctx-rh-R_IPS1_ROI'
-'ctx-rh-R_FFC_ROI'
-'ctx-rh-R_V3B_ROI'
-'ctx-rh-R_LO1_ROI'
-'ctx-rh-R_LO2_ROI'
-'ctx-rh-R_PIT_ROI'
-'ctx-rh-R_MT_ROI'
-'ctx-rh-R_A1_ROI'
-'ctx-rh-R_PSL_ROI'
-'ctx-rh-R_SFL_ROI'
-'ctx-rh-R_PCV_ROI'
-'ctx-rh-R_STV_ROI'
-'ctx-rh-R_7Pm_ROI'
-'ctx-rh-R_7m_ROI'
-'ctx-rh-R_POS1_ROI'
-'ctx-rh-R_23d_ROI'
-'ctx-rh-R_v23ab_ROI'
-'ctx-rh-R_d23ab_ROI'
-'ctx-rh-R_31pv_ROI'
-'ctx-rh-R_5m_ROI'
-'ctx-rh-R_5mv_ROI'
-'ctx-rh-R_23c_ROI'
-'ctx-rh-R_5L_ROI'
-'ctx-rh-R_24dd_ROI'
-'ctx-rh-R_24dv_ROI'
-'ctx-rh-R_7AL_ROI'
-'ctx-rh-R_SCEF_ROI'
-'ctx-rh-R_6ma_ROI'
-'ctx-rh-R_7Am_ROI'
-'ctx-rh-R_7PL_ROI'
-'ctx-rh-R_7PC_ROI'
-'ctx-rh-R_LIPv_ROI'
-'ctx-rh-R_VIP_ROI'
-'ctx-rh-R_MIP_ROI'
-'ctx-rh-R_1_ROI'
-'ctx-rh-R_2_ROI'
-'ctx-rh-R_3a_ROI'
-'ctx-rh-R_6d_ROI'
-'ctx-rh-R_6mp_ROI'
-'ctx-rh-R_6v_ROI'
-'ctx-rh-R_p24pr_ROI'
-'ctx-rh-R_33pr_ROI'
-'ctx-rh-R_a24pr_ROI'
-'ctx-rh-R_p32pr_ROI'
-'ctx-rh-R_a24_ROI'
-'ctx-rh-R_d32_ROI'
-'ctx-rh-R_8BM_ROI'
-'ctx-rh-R_p32_ROI'
-'ctx-rh-R_10r_ROI'
-'ctx-rh-R_47m_ROI'
-'ctx-rh-R_8Av_ROI'
-'ctx-rh-R_8Ad_ROI'
-'ctx-rh-R_9m_ROI'
-'ctx-rh-R_8BL_ROI'
-'ctx-rh-R_9p_ROI'
-'ctx-rh-R_10d_ROI'
-'ctx-rh-R_8C_ROI'
-'ctx-rh-R_44_ROI'
-'ctx-rh-R_45_ROI'
-'ctx-rh-R_47l_ROI'
-'ctx-rh-R_a47r_ROI'
-'ctx-rh-R_6r_ROI'
-'ctx-rh-R_IFJa_ROI'
-'ctx-rh-R_IFJp_ROI'
-'ctx-rh-R_IFSp_ROI'
-'ctx-rh-R_IFSa_ROI'
-'ctx-rh-R_p9-46v_ROI'
-'ctx-rh-R_46_ROI'
-'ctx-rh-R_a9-46v_ROI'
-'ctx-rh-R_9-46d_ROI'
-'ctx-rh-R_9a_ROI'
-'ctx-rh-R_10v_ROI'
-'ctx-rh-R_a10p_ROI'
-'ctx-rh-R_10pp_ROI'
-'ctx-rh-R_11l_ROI'
-'ctx-rh-R_13l_ROI'
-'ctx-rh-R_OFC_ROI'
-'ctx-rh-R_47s_ROI'
-'ctx-rh-R_LIPd_ROI'
-'ctx-rh-R_6a_ROI'
-'ctx-rh-R_i6-8_ROI'
-'ctx-rh-R_s6-8_ROI'
-'ctx-rh-R_43_ROI'
-'ctx-rh-R_OP4_ROI'
-'ctx-rh-R_OP1_ROI'
-'ctx-rh-R_OP2-3_ROI'
-'ctx-rh-R_52_ROI'
-'ctx-rh-R_RI_ROI'
-'ctx-rh-R_PFcm_ROI'
-'ctx-rh-R_PoI2_ROI'
-'ctx-rh-R_TA2_ROI'
-'ctx-rh-R_FOP4_ROI'
-'ctx-rh-R_MI_ROI'
-'ctx-rh-R_Pir_ROI'
-'ctx-rh-R_AVI_ROI'
-'ctx-rh-R_AAIC_ROI'
-'ctx-rh-R_FOP1_ROI'
-'ctx-rh-R_FOP3_ROI'
-'ctx-rh-R_FOP2_ROI'
-'ctx-rh-R_PFt_ROI'
-'ctx-rh-R_AIP_ROI'
-'ctx-rh-R_EC_ROI'
-'ctx-rh-R_PreS_ROI'
-'ctx-rh-R_H_ROI'
-'ctx-rh-R_ProS_ROI'
-'ctx-rh-R_PeEc_ROI'
-'ctx-rh-R_STGa_ROI'
-'ctx-rh-R_PBelt_ROI'
-'ctx-rh-R_A5_ROI'
-'ctx-rh-R_PHA1_ROI'
-'ctx-rh-R_PHA3_ROI'
-'ctx-rh-R_STSda_ROI'
-'ctx-rh-R_STSdp_ROI'
-'ctx-rh-R_STSvp_ROI'
-'ctx-rh-R_TGd_ROI'
-'ctx-rh-R_TE1a_ROI'
-'ctx-rh-R_TE1p_ROI'
-'ctx-rh-R_TE2a_ROI'
-'ctx-rh-R_TF_ROI'
-'ctx-rh-R_TE2p_ROI'
-'ctx-rh-R_PHT_ROI'
-'ctx-rh-R_PH_ROI'
-'ctx-rh-R_TPOJ1_ROI'
-'ctx-rh-R_TPOJ2_ROI'
-'ctx-rh-R_TPOJ3_ROI'
-'ctx-rh-R_DVT_ROI'
-'ctx-rh-R_PGp_ROI'
-'ctx-rh-R_IP2_ROI'
-'ctx-rh-R_IP1_ROI'
-'ctx-rh-R_IP0_ROI'
-'ctx-rh-R_PFop_ROI'
-'ctx-rh-R_PF_ROI'
-'ctx-rh-R_PFm_ROI'
-'ctx-rh-R_PGi_ROI'
-'ctx-rh-R_PGs_ROI'
-'ctx-rh-R_V6A_ROI'
-'ctx-rh-R_VMV1_ROI'
-'ctx-rh-R_VMV3_ROI'
-'ctx-rh-R_PHA2_ROI'
-'ctx-rh-R_V4t_ROI'
-'ctx-rh-R_FST_ROI'
-'ctx-rh-R_V3CD_ROI'
-'ctx-rh-R_LO3_ROI'
-'ctx-rh-R_VMV2_ROI'
-'ctx-rh-R_31pd_ROI'
-'ctx-rh-R_31a_ROI'
-'ctx-rh-R_VVC_ROI'
-'ctx-rh-R_25_ROI'
-'ctx-rh-R_s32_ROI'
-'ctx-rh-R_pOFC_ROI'
-'ctx-rh-R_PoI1_ROI'
-'ctx-rh-R_Ig_ROI'
-'ctx-rh-R_FOP5_ROI'
-'ctx-rh-R_p10p_ROI'
-'ctx-rh-R_p47r_ROI'
-'ctx-rh-R_TGv_ROI'
-'ctx-rh-R_MBelt_ROI'
-'ctx-rh-R_LBelt_ROI'
-'ctx-rh-R_A4_ROI'
-'ctx-rh-R_STSva_ROI'
-'ctx-rh-R_TE1m_ROI'
-'ctx-rh-R_PI_ROI'
-'ctx-rh-R_a32pr_ROI'
-'ctx-rh-R_p24_ROI'
+ctx-lh-L_V1_ROI	L_V1
+ctx-lh-L_MST_ROI	L_MST
+ctx-lh-L_V6_ROI	L_V6
+ctx-lh-L_V2_ROI	L_V2
+ctx-lh-L_V3_ROI	L_V3
+ctx-lh-L_V4_ROI	L_V4
+ctx-lh-L_V8_ROI	L_V8
+ctx-lh-L_4_ROI	L_4
+ctx-lh-L_3b_ROI	L_3b
+ctx-lh-L_FEF_ROI	L_FEF
+ctx-lh-L_PEF_ROI	L_PEF
+ctx-lh-L_55b_ROI	L_55b
+ctx-lh-L_V3A_ROI	L_V3A
+ctx-lh-L_RSC_ROI	L_RSC
+ctx-lh-L_POS2_ROI	L_POS2
+ctx-lh-L_V7_ROI	L_V7
+ctx-lh-L_IPS1_ROI	L_IPS1
+ctx-lh-L_FFC_ROI	L_FFC
+ctx-lh-L_V3B_ROI	L_V3B
+ctx-lh-L_LO1_ROI	L_LO1
+ctx-lh-L_LO2_ROI	L_LO2
+ctx-lh-L_PIT_ROI	L_PIT
+ctx-lh-L_MT_ROI	L_MT
+ctx-lh-L_A1_ROI	L_A1
+ctx-lh-L_PSL_ROI	L_PSL
+ctx-lh-L_SFL_ROI	L_SFL
+ctx-lh-L_PCV_ROI	L_PCV
+ctx-lh-L_STV_ROI	L_STV
+ctx-lh-L_7Pm_ROI	L_7Pm
+ctx-lh-L_7m_ROI	L_7m
+ctx-lh-L_POS1_ROI	L_POS1
+ctx-lh-L_23d_ROI	L_23d
+ctx-lh-L_v23ab_ROI	L_v23ab
+ctx-lh-L_d23ab_ROI	L_d23ab
+ctx-lh-L_31pv_ROI	L_31pv
+ctx-lh-L_5m_ROI	L_5m
+ctx-lh-L_5mv_ROI	L_5mv
+ctx-lh-L_23c_ROI	L_23c
+ctx-lh-L_5L_ROI	L_5L
+ctx-lh-L_24dd_ROI	L_24dd
+ctx-lh-L_24dv_ROI	L_24dv
+ctx-lh-L_7AL_ROI	L_7AL
+ctx-lh-L_SCEF_ROI	L_SCEF
+ctx-lh-L_6ma_ROI	L_6ma
+ctx-lh-L_7Am_ROI	L_7Am
+ctx-lh-L_7PL_ROI	L_7PL
+ctx-lh-L_7PC_ROI	L_7PC
+ctx-lh-L_LIPv_ROI	L_LIPv
+ctx-lh-L_VIP_ROI	L_VIP
+ctx-lh-L_MIP_ROI	L_MIP
+ctx-lh-L_1_ROI	L_1
+ctx-lh-L_2_ROI	L_2
+ctx-lh-L_3a_ROI	L_3a
+ctx-lh-L_6d_ROI	L_6d
+ctx-lh-L_6mp_ROI	L_6mp
+ctx-lh-L_6v_ROI	L_6v
+ctx-lh-L_p24pr_ROI	L_p24pr
+ctx-lh-L_33pr_ROI	L_33pr
+ctx-lh-L_a24pr_ROI	L_a24pr
+ctx-lh-L_p32pr_ROI	L_p32pr
+ctx-lh-L_a24_ROI	L_a24
+ctx-lh-L_d32_ROI	L_d32
+ctx-lh-L_8BM_ROI	L_8BM
+ctx-lh-L_p32_ROI	L_p32
+ctx-lh-L_10r_ROI	L_10r
+ctx-lh-L_47m_ROI	L_47m
+ctx-lh-L_8Av_ROI	L_8Av
+ctx-lh-L_8Ad_ROI	L_8Ad
+ctx-lh-L_9m_ROI	L_9m
+ctx-lh-L_8BL_ROI	L_8BL
+ctx-lh-L_9p_ROI	L_9p
+ctx-lh-L_10d_ROI	L_10d
+ctx-lh-L_8C_ROI	L_8C
+ctx-lh-L_44_ROI	L_44
+ctx-lh-L_45_ROI	L_45
+ctx-lh-L_47l_ROI	L_47l
+ctx-lh-L_a47r_ROI	L_a47r
+ctx-lh-L_6r_ROI	L_6r
+ctx-lh-L_IFJa_ROI	L_IFJa
+ctx-lh-L_IFJp_ROI	L_IFJp
+ctx-lh-L_IFSp_ROI	L_IFSp
+ctx-lh-L_IFSa_ROI	L_IFSa
+ctx-lh-L_p9-46v_ROI	L_p9-46v
+ctx-lh-L_46_ROI	L_46
+ctx-lh-L_a9-46v_ROI	L_a9-46v
+ctx-lh-L_9-46d_ROI	L_9-46d
+ctx-lh-L_9a_ROI	L_9a
+ctx-lh-L_10v_ROI	L_10v
+ctx-lh-L_a10p_ROI	L_a10p
+ctx-lh-L_10pp_ROI	L_10pp
+ctx-lh-L_11l_ROI	L_11l
+ctx-lh-L_13l_ROI	L_13l
+ctx-lh-L_OFC_ROI	L_OFC
+ctx-lh-L_47s_ROI	L_47s
+ctx-lh-L_LIPd_ROI	L_LIPd
+ctx-lh-L_6a_ROI	L_6a
+ctx-lh-L_i6-8_ROI	L_i6-8
+ctx-lh-L_s6-8_ROI	L_s6-8
+ctx-lh-L_43_ROI	L_43
+ctx-lh-L_OP4_ROI	L_OP4
+ctx-lh-L_OP1_ROI	L_OP1
+ctx-lh-L_OP2-3_ROI	L_OP2-3
+ctx-lh-L_52_ROI	L_52
+ctx-lh-L_RI_ROI	L_RI
+ctx-lh-L_PFcm_ROI	L_PFcm
+ctx-lh-L_PoI2_ROI	L_PoI2
+ctx-lh-L_TA2_ROI	L_TA2
+ctx-lh-L_FOP4_ROI	L_FOP4
+ctx-lh-L_MI_ROI	L_MI
+ctx-lh-L_Pir_ROI	L_Pir
+ctx-lh-L_AVI_ROI	L_AVI
+ctx-lh-L_AAIC_ROI	L_AAIC
+ctx-lh-L_FOP1_ROI	L_FOP1
+ctx-lh-L_FOP3_ROI	L_FOP3
+ctx-lh-L_FOP2_ROI	L_FOP2
+ctx-lh-L_PFt_ROI	L_PFt
+ctx-lh-L_AIP_ROI	L_AIP
+ctx-lh-L_EC_ROI	L_EC
+ctx-lh-L_PreS_ROI	L_PreS
+ctx-lh-L_H_ROI	L_H
+ctx-lh-L_ProS_ROI	L_ProS
+ctx-lh-L_PeEc_ROI	L_PeEc
+ctx-lh-L_STGa_ROI	L_STGa
+ctx-lh-L_PBelt_ROI	L_PBelt
+ctx-lh-L_A5_ROI	L_A5
+ctx-lh-L_PHA1_ROI	L_PHA1
+ctx-lh-L_PHA3_ROI	L_PHA3
+ctx-lh-L_STSda_ROI	L_STSda
+ctx-lh-L_STSdp_ROI	L_STSdp
+ctx-lh-L_STSvp_ROI	L_STSvp
+ctx-lh-L_TGd_ROI	L_TGd
+ctx-lh-L_TE1a_ROI	L_TE1a
+ctx-lh-L_TE1p_ROI	L_TE1p
+ctx-lh-L_TE2a_ROI	L_TE2a
+ctx-lh-L_TF_ROI	L_TF
+ctx-lh-L_TE2p_ROI	L_TE2p
+ctx-lh-L_PHT_ROI	L_PHT
+ctx-lh-L_PH_ROI	L_PH
+ctx-lh-L_TPOJ1_ROI	L_TPOJ1
+ctx-lh-L_TPOJ2_ROI	L_TPOJ2
+ctx-lh-L_TPOJ3_ROI	L_TPOJ3
+ctx-lh-L_DVT_ROI	L_DVT
+ctx-lh-L_PGp_ROI	L_PGp
+ctx-lh-L_IP2_ROI	L_IP2
+ctx-lh-L_IP1_ROI	L_IP1
+ctx-lh-L_IP0_ROI	L_IP0
+ctx-lh-L_PFop_ROI	L_PFop
+ctx-lh-L_PF_ROI	L_PF
+ctx-lh-L_PFm_ROI	L_PFm
+ctx-lh-L_PGi_ROI	L_PGi
+ctx-lh-L_PGs_ROI	L_PGs
+ctx-lh-L_V6A_ROI	L_V6A
+ctx-lh-L_VMV1_ROI	L_VMV1
+ctx-lh-L_VMV3_ROI	L_VMV3
+ctx-lh-L_PHA2_ROI	L_PHA2
+ctx-lh-L_V4t_ROI	L_V4t
+ctx-lh-L_FST_ROI	L_FST
+ctx-lh-L_V3CD_ROI	L_V3CD
+ctx-lh-L_LO3_ROI	L_LO3
+ctx-lh-L_VMV2_ROI	L_VMV2
+ctx-lh-L_31pd_ROI	L_31pd
+ctx-lh-L_31a_ROI	L_31a
+ctx-lh-L_VVC_ROI	L_VVC
+ctx-lh-L_25_ROI	L_25
+ctx-lh-L_s32_ROI	L_s32
+ctx-lh-L_pOFC_ROI	L_pOFC
+ctx-lh-L_PoI1_ROI	L_PoI1
+ctx-lh-L_Ig_ROI	L_Ig
+ctx-lh-L_FOP5_ROI	L_FOP5
+ctx-lh-L_p10p_ROI	L_p10p
+ctx-lh-L_p47r_ROI	L_p47r
+ctx-lh-L_TGv_ROI	L_TGv
+ctx-lh-L_MBelt_ROI	L_MBelt
+ctx-lh-L_LBelt_ROI	L_LBelt
+ctx-lh-L_A4_ROI	L_A4
+ctx-lh-L_STSva_ROI	L_STSva
+ctx-lh-L_TE1m_ROI	L_TE1m
+ctx-lh-L_PI_ROI	L_PI
+ctx-lh-L_a32pr_ROI	L_a32pr
+ctx-lh-L_p24_ROI	L_p24
+ctx-rh-R_V1_ROI	R_V1
+ctx-rh-R_MST_ROI	R_MST
+ctx-rh-R_V6_ROI	R_V6
+ctx-rh-R_V2_ROI	R_V2
+ctx-rh-R_V3_ROI	R_V3
+ctx-rh-R_V4_ROI	R_V4
+ctx-rh-R_V8_ROI	R_V8
+ctx-rh-R_4_ROI	R_4
+ctx-rh-R_3b_ROI	R_3b
+ctx-rh-R_FEF_ROI	R_FEF
+ctx-rh-R_PEF_ROI	R_PEF
+ctx-rh-R_55b_ROI	R_55b
+ctx-rh-R_V3A_ROI	R_V3A
+ctx-rh-R_RSC_ROI	R_RSC
+ctx-rh-R_POS2_ROI	R_POS2
+ctx-rh-R_V7_ROI	R_V7
+ctx-rh-R_IPS1_ROI	R_IPS1
+ctx-rh-R_FFC_ROI	R_FFC
+ctx-rh-R_V3B_ROI	R_V3B
+ctx-rh-R_LO1_ROI	R_LO1
+ctx-rh-R_LO2_ROI	R_LO2
+ctx-rh-R_PIT_ROI	R_PIT
+ctx-rh-R_MT_ROI	R_MT
+ctx-rh-R_A1_ROI	R_A1
+ctx-rh-R_PSL_ROI	R_PSL
+ctx-rh-R_SFL_ROI	R_SFL
+ctx-rh-R_PCV_ROI	R_PCV
+ctx-rh-R_STV_ROI	R_STV
+ctx-rh-R_7Pm_ROI	R_7Pm
+ctx-rh-R_7m_ROI	R_7m
+ctx-rh-R_POS1_ROI	R_POS1
+ctx-rh-R_23d_ROI	R_23d
+ctx-rh-R_v23ab_ROI	R_v23ab
+ctx-rh-R_d23ab_ROI	R_d23ab
+ctx-rh-R_31pv_ROI	R_31pv
+ctx-rh-R_5m_ROI	R_5m
+ctx-rh-R_5mv_ROI	R_5mv
+ctx-rh-R_23c_ROI	R_23c
+ctx-rh-R_5L_ROI	R_5L
+ctx-rh-R_24dd_ROI	R_24dd
+ctx-rh-R_24dv_ROI	R_24dv
+ctx-rh-R_7AL_ROI	R_7AL
+ctx-rh-R_SCEF_ROI	R_SCEF
+ctx-rh-R_6ma_ROI	R_6ma
+ctx-rh-R_7Am_ROI	R_7Am
+ctx-rh-R_7PL_ROI	R_7PL
+ctx-rh-R_7PC_ROI	R_7PC
+ctx-rh-R_LIPv_ROI	R_LIPv
+ctx-rh-R_VIP_ROI	R_VIP
+ctx-rh-R_MIP_ROI	R_MIP
+ctx-rh-R_1_ROI	R_1
+ctx-rh-R_2_ROI	R_2
+ctx-rh-R_3a_ROI	R_3a
+ctx-rh-R_6d_ROI	R_6d
+ctx-rh-R_6mp_ROI	R_6mp
+ctx-rh-R_6v_ROI	R_6v
+ctx-rh-R_p24pr_ROI	R_p24pr
+ctx-rh-R_33pr_ROI	R_33pr
+ctx-rh-R_a24pr_ROI	R_a24pr
+ctx-rh-R_p32pr_ROI	R_p32pr
+ctx-rh-R_a24_ROI	R_a24
+ctx-rh-R_d32_ROI	R_d32
+ctx-rh-R_8BM_ROI	R_8BM
+ctx-rh-R_p32_ROI	R_p32
+ctx-rh-R_10r_ROI	R_10r
+ctx-rh-R_47m_ROI	R_47m
+ctx-rh-R_8Av_ROI	R_8Av
+ctx-rh-R_8Ad_ROI	R_8Ad
+ctx-rh-R_9m_ROI	R_9m
+ctx-rh-R_8BL_ROI	R_8BL
+ctx-rh-R_9p_ROI	R_9p
+ctx-rh-R_10d_ROI	R_10d
+ctx-rh-R_8C_ROI	R_8C
+ctx-rh-R_44_ROI	R_44
+ctx-rh-R_45_ROI	R_45
+ctx-rh-R_47l_ROI	R_47l
+ctx-rh-R_a47r_ROI	R_a47r
+ctx-rh-R_6r_ROI	R_6r
+ctx-rh-R_IFJa_ROI	R_IFJa
+ctx-rh-R_IFJp_ROI	R_IFJp
+ctx-rh-R_IFSp_ROI	R_IFSp
+ctx-rh-R_IFSa_ROI	R_IFSa
+ctx-rh-R_p9-46v_ROI	R_p9-46v
+ctx-rh-R_46_ROI	R_46
+ctx-rh-R_a9-46v_ROI	R_a9-46v
+ctx-rh-R_9-46d_ROI	R_9-46d
+ctx-rh-R_9a_ROI	R_9a
+ctx-rh-R_10v_ROI	R_10v
+ctx-rh-R_a10p_ROI	R_a10p
+ctx-rh-R_10pp_ROI	R_10pp
+ctx-rh-R_11l_ROI	R_11l
+ctx-rh-R_13l_ROI	R_13l
+ctx-rh-R_OFC_ROI	R_OFC
+ctx-rh-R_47s_ROI	R_47s
+ctx-rh-R_LIPd_ROI	R_LIPd
+ctx-rh-R_6a_ROI	R_6a
+ctx-rh-R_i6-8_ROI	R_i6-8
+ctx-rh-R_s6-8_ROI	R_s6-8
+ctx-rh-R_43_ROI	R_43
+ctx-rh-R_OP4_ROI	R_OP4
+ctx-rh-R_OP1_ROI	R_OP1
+ctx-rh-R_OP2-3_ROI	R_OP2-3
+ctx-rh-R_52_ROI	R_52
+ctx-rh-R_RI_ROI	R_RI
+ctx-rh-R_PFcm_ROI	R_PFcm
+ctx-rh-R_PoI2_ROI	R_PoI2
+ctx-rh-R_TA2_ROI	R_TA2
+ctx-rh-R_FOP4_ROI	R_FOP4
+ctx-rh-R_MI_ROI	R_MI
+ctx-rh-R_Pir_ROI	R_Pir
+ctx-rh-R_AVI_ROI	R_AVI
+ctx-rh-R_AAIC_ROI	R_AAIC
+ctx-rh-R_FOP1_ROI	R_FOP1
+ctx-rh-R_FOP3_ROI	R_FOP3
+ctx-rh-R_FOP2_ROI	R_FOP2
+ctx-rh-R_PFt_ROI	R_PFt
+ctx-rh-R_AIP_ROI	R_AIP
+ctx-rh-R_EC_ROI	R_EC
+ctx-rh-R_PreS_ROI	R_PreS
+ctx-rh-R_H_ROI	R_H
+ctx-rh-R_ProS_ROI	R_ProS
+ctx-rh-R_PeEc_ROI	R_PeEc
+ctx-rh-R_STGa_ROI	R_STGa
+ctx-rh-R_PBelt_ROI	R_PBelt
+ctx-rh-R_A5_ROI	R_A5
+ctx-rh-R_PHA1_ROI	R_PHA1
+ctx-rh-R_PHA3_ROI	R_PHA3
+ctx-rh-R_STSda_ROI	R_STSda
+ctx-rh-R_STSdp_ROI	R_STSdp
+ctx-rh-R_STSvp_ROI	R_STSvp
+ctx-rh-R_TGd_ROI	R_TGd
+ctx-rh-R_TE1a_ROI	R_TE1a
+ctx-rh-R_TE1p_ROI	R_TE1p
+ctx-rh-R_TE2a_ROI	R_TE2a
+ctx-rh-R_TF_ROI	R_TF
+ctx-rh-R_TE2p_ROI	R_TE2p
+ctx-rh-R_PHT_ROI	R_PHT
+ctx-rh-R_PH_ROI	R_PH
+ctx-rh-R_TPOJ1_ROI	R_TPOJ1
+ctx-rh-R_TPOJ2_ROI	R_TPOJ2
+ctx-rh-R_TPOJ3_ROI	R_TPOJ3
+ctx-rh-R_DVT_ROI	R_DVT
+ctx-rh-R_PGp_ROI	R_PGp
+ctx-rh-R_IP2_ROI	R_IP2
+ctx-rh-R_IP1_ROI	R_IP1
+ctx-rh-R_IP0_ROI	R_IP0
+ctx-rh-R_PFop_ROI	R_PFop
+ctx-rh-R_PF_ROI	R_PF
+ctx-rh-R_PFm_ROI	R_PFm
+ctx-rh-R_PGi_ROI	R_PGi
+ctx-rh-R_PGs_ROI	R_PGs
+ctx-rh-R_V6A_ROI	R_V6A
+ctx-rh-R_VMV1_ROI	R_VMV1
+ctx-rh-R_VMV3_ROI	R_VMV3
+ctx-rh-R_PHA2_ROI	R_PHA2
+ctx-rh-R_V4t_ROI	R_V4t
+ctx-rh-R_FST_ROI	R_FST
+ctx-rh-R_V3CD_ROI	R_V3CD
+ctx-rh-R_LO3_ROI	R_LO3
+ctx-rh-R_VMV2_ROI	R_VMV2
+ctx-rh-R_31pd_ROI	R_31pd
+ctx-rh-R_31a_ROI	R_31a
+ctx-rh-R_VVC_ROI	R_VVC
+ctx-rh-R_25_ROI	R_25
+ctx-rh-R_s32_ROI	R_s32
+ctx-rh-R_pOFC_ROI	R_pOFC
+ctx-rh-R_PoI1_ROI	R_PoI1
+ctx-rh-R_Ig_ROI	R_Ig
+ctx-rh-R_FOP5_ROI	R_FOP5
+ctx-rh-R_p10p_ROI	R_p10p
+ctx-rh-R_p47r_ROI	R_p47r
+ctx-rh-R_TGv_ROI	R_TGv
+ctx-rh-R_MBelt_ROI	R_MBelt
+ctx-rh-R_LBelt_ROI	R_LBelt
+ctx-rh-R_A4_ROI	R_A4
+ctx-rh-R_STSva_ROI	R_STSva
+ctx-rh-R_TE1m_ROI	R_TE1m
+ctx-rh-R_PI_ROI	R_PI
+ctx-rh-R_a32pr_ROI	R_a32pr
+ctx-rh-R_p24_ROI	R_p24
